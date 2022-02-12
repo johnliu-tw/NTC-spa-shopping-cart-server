@@ -14,7 +14,7 @@ class ProductSeeder extends Seeder
      */
     public function run()
     {
-        for ($i=1; $i < 13; $i++) {
+        for ($i=1; $i < 60; $i++) {
             DB::table('products')->insert([
                 'user_id' => $i,
                 'brand' => "Oreilly",
